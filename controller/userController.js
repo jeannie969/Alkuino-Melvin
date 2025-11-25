@@ -12,5 +12,5 @@ export const getUserById = (req, res) => {
     return res.status(404).json({ message: "User not found" });
   }
 
-  res.json(user);
+  res.json(user); 
 };
